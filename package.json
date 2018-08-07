@@ -7,7 +7,7 @@
 		"dev": "npm run cleanup && cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
 		"watch": "npm run cleanup && cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
 		"production": "npm run cleanup && cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-		"deploy": "gh-pages -d dist"
+		"deploy": "npm run production && gh-pages -d dist"
 	},
 	"repository": "wolfika/wolfika.github.io",
 	"author": {
