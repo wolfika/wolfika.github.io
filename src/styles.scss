@@ -193,7 +193,8 @@ main > section {
 		text-transform: uppercase;
 		text-shadow: 0 2px 1px rgba(0, 0, 0, .17);
 		transform: translateY(0);
-		transition: .25s;
+		transition-duration: .25s;
+		transition-property: box-shadow, text-shadow, transform;
 
 		@media (min-width: $size-lg) {
 			display: inline-block;
