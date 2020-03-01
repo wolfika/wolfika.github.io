@@ -1,36 +1,14 @@
 {
-	"name": "wolfika.github.io",
-	"description": "wolfika.github.io",
-	"version": "1.0.0",
-	"scripts": {
-		"cleanup": "rm -rf dist",
-		"dev": "npm run cleanup && cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-		"watch": "npm run cleanup && cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-		"production": "npm run cleanup && cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-		"deploy": "npm run production && gh-pages -d dist -b master"
-	},
-	"repository": "wolfika/wolfika.github.io",
-	"author": {
-		"name": "Máté Farkas",
-		"email": "info@wolfika.eu",
-		"url": "github.com/wolfika"
-	},
-	"engines": {
-		"node": ">=8"
-	},
-	"bugs": {
-		"url": "https://github.com/wolfika/wolfika.github.io/issues"
-	},
-	"homepage": "https://github.com/wolfika/wolfika.github.io#readme",
-	"devDependencies": {
-		"browser-sync": "^2.24.6",
-		"browser-sync-webpack-plugin": "2.0.1",
-		"cross-env": "^5.2.0",
-		"gh-pages": "^1.2.0",
-		"html-webpack-plugin": "^3.2.0",
-		"laravel-mix": "^2.1.11"
-	},
-	"dependencies": {
-		"spectre.css": "^0.5.3"
-	}
+  "name": "wolfika.github.io",
+  "description": "wolfika.github.io",
+  "version": "1.0.0",
+  "scripts": {},
+  "repository": "wolfika/wolfika.github.io",
+  "author": {
+    "name": "Máté Farkas",
+    "email": "info@wolfika.eu",
+    "url": "https://github.com/wolfika"
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
