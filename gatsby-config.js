@@ -3,12 +3,16 @@ module.exports = {
     title: `Mate Farkas`,
     author: {
       name: `Mate Farkas`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `who works with JavaScript as a Software Engineer on LastPass at LogMein.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Personal blog of a JavaScript Software Engineer, interested in TypeScript, Node.js, and frontend`,
     siteUrl: `https://wolfika.github.io/`,
     social: {
-      twitter: `awolfika`,
+      twitterName: `awolfika`,
+      gitHubUrl: `https://github.com/wolfika`,
+      twitterUrl: `https://twitter.com/awolfika`,
+      linkedInUrl: `https://www.linkedin.com/in/farkasmate38`,
+      devUrl: `https://dev.to/awolfika`,
     },
   },
   plugins: [
@@ -50,13 +54,14 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-90330240-1`,
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -80,4 +85,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
